@@ -1,15 +1,14 @@
 {
-  "name": "demo",
+  "name": "jotto-neto",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^25.1.4",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,8 +32,8 @@
     ]
   },
   "devDependencies": {
+    "babel-plugin-react-remove-properties": "^0.3.0",
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "jest-enzyme": "^7.1.2"
+    "enzyme-adapter-react-16": "^1.15.2"
   }
 }
